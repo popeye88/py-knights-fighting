@@ -49,6 +49,6 @@ class Knight:
         return (
             f"Knight(name={self.name}, power={self.power}, hp={self.hp}, "
             f"protection={self.protection}, weapon={repr(self.weapon)}, "
-            f"armour=[{', '.join([repr(a) for a in self.armour])}], "
-            f"potion={repr(self.potion) if self.potion else 'No potion'})"
+            f"armour=[{", ".join([repr(a) for a in self.armour])}], "
+            f"potion={repr(self.potion) if self.potion else "No potion"})"
         )
